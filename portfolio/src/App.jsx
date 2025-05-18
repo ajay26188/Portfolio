@@ -6,7 +6,6 @@ import Projects from './sections/Projects'
 import Skills from './sections/Skills'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
-import Certificates from './sections/Certificates'
 
 function App() {
 
@@ -14,11 +13,10 @@ function App() {
     <>
       <div className = "App">
         <Navbar />
-        <Hero /> {/*hi*/}
+        <Hero /> 
         <About />
         <Projects />
         <Skills />
-        <Certificates />
         <Contact />
         <Footer />
       </div>

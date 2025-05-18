@@ -11,7 +11,7 @@ const Hero = () => {
 
         <div className="hero-content">
           <h1>Hi! I am Ajay.</h1>
-          <h2>Full Stack Developer</h2>
+          <h2>Junior Full Stack Developer</h2>
           <p>Bachelor of Science, Software and Systems Engineering <br/>Lappeenranta-Lahti University of Technology, Finland</p>
 
           <div className="hero-buttons">
