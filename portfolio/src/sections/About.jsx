@@ -1,21 +1,21 @@
-// src/sections/About.jsx
 import './About.css';
 
 const About = () => {
   return (
     <section className="about" id="about">
-      <div className="about-content">
-        <h2>About Me</h2>
+      <div className="about-container">
+        <h2 className="about-title">About Me</h2>
+
         <p>
-        I'm a motivated software engineering graduate with a strong interest in developing client- and user-friendly software. I've been learning full-stack development on my own through personal projects and open online courses, exploring how to build and manage everything from the front end to the back end and databases. 
+          I’m a Software Engineering graduate from LUT University, Finland, with a strong passion for Full Stack Web Development. I build responsive, scalable web applications using React, Node.js, and MongoDB. I’m also continuously learning technologies like Java and Python to grow further as a full stack developer.
         </p>
 
         <p>
-        I enjoy writing clean, efficient code and creating solutions that are practical and easy to use. I'm eager to keep learning new technologies and grow as a full-stack developer.
+          My experience spans academic research, personal projects, and continuous learning through online courses. I enjoy writing clean code, crafting seamless user interfaces, and building reliable backend systems.
         </p>
-    
+
         <p>
-          Outside of coding, I enjoy travelling, playing word puzzles and have always been curious about exploring human behavior.
+          I'm always excited to explore new technologies and work in collaborative teams where I can grow while delivering real value. Beyond coding, I love traveling, word puzzles, and understanding human behavior.
         </p>
       </div>
     </section>

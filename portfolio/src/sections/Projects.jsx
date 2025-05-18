@@ -4,24 +4,25 @@ import ProjectCard from '../components/ProjectCard';
 const Projects = () => {
   const projectList = [
     {
-      title: "Personal Portfolio",
-      description: "This site you're on! Built with React and CSS.",
-      tech: "React, Vite, CSS",
-      link: "#"
+      title: "Phonebook Website",
+      description: "Contact manager with add, update, filter, and delete features using React Router and localStorage.",
+      tech: "React, JavaScript, CSS, React Router, LocalStorage",
+      link: "https://ajaysphonebook.netlify.app/"
     },
     {
-      title: "To-Do List App",
-      description: "A simple CRUD to-do app with persistent storage.",
-      tech: "React, LocalStorage",
-      link: "#"
+      title: "Anecdotes Voting Portal",
+      description: "Vote and browse programming anecdotes with animated transitions and top-vote logic.",
+      tech: "React, JavaScript, React Router, Framer Motion",
+      link: "https://ajays-anecdotes.netlify.app/"
     },
     {
-      title: "Weather Dashboard",
-      description: "Fetches real-time weather data from OpenWeatherMap API.",
-      tech: "React, Fetch API, CSS",
-      link: "#"
+      title: "Cafe Website",
+      description: "Single-page café site with hero, menu, contact form, and photo gallery built with React and Vite.",
+      tech: "React, Vite, JavaScript, CSS, HTML",
+      link: "https://ajays-cafe.netlify.app/"
     }
   ];
+  
 
   return (
     <section className="projects" id="projects">

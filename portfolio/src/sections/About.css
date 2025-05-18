@@ -1,26 +1,42 @@
-/* src/sections/About.css */
 .about {
-    padding: 4rem 2rem;
-    background-color: #f0f0f0;
-    text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #eef4ff, #f7faff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 900px;
+  background-color: #fff;
+  padding: 3rem 3.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.about-title {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
   }
-  
-  .about-content {
-    max-width: 800px;
-    margin: 0 auto;
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .about h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 1rem;
-  }
-  
-  .about p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-  }
-  
-  
+}
