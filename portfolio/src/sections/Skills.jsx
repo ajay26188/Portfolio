@@ -2,11 +2,11 @@ import './Skills.css';
 
 const Skills = () => {
   const frontendSkills = [
-    "React.js", "HTML5", "CSS3", "JavaScript", "Vite", "Framer Motion"
+    "React.js", "HTML5", "CSS3", "Material UI", "Bootstrap"
   ];
 
   const backendSkills = [
-    "Node.js", "Express.js", "Java", "Python", "MongoDB", "MySQL", "REST APIs"
+    "Java", "Node.js", "TypeScript", "Express.js", "MongoDB", "MySQL", "PostgreSQL", "REST APIs", "GraphQL"
   ];
 
   const toolsSkills = [
@@ -27,7 +27,7 @@ const Skills = () => {
         </div>
 
         <div className="skills-category">
-          <h3>Backend & DB</h3>
+          <h3>Backend & Database</h3>
           <div className="skills-grid">
             {backendSkills.map((skill, index) => (
               <div className="skill-card" key={index}>{skill}</div>
