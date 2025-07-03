@@ -1,6 +1,6 @@
 import './Hero.css';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import resumePDF from '../assets/AjaySah_Resume.pdf';
+import resumePDF from '../assets/Ajay_Sah_Resume.pdf';
 import degreePDF from '../assets/Degree-certificate-Sah-Ajay.pdf';
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
           <h1>Hi, I'm Ajay.</h1>
           <h2>Full Stack Developer | Java, React, Javascript, TypeScript, Node.js, MongoDB, Java, GraphQL, MySQL, PostgreSQL</h2>
           <p>
-            A passionate Software Engineering graduate from LUT University, Finland.<br />
+            A Software Engineering graduate from LUT University, Finland.<br />
             I specialize in building dynamic, responsive web applications using modern technologies.<br />
             Actively seeking junior-level opportunities to contribute and grow in collaborative development teams.
           </p>
