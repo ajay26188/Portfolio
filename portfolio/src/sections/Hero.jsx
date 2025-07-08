@@ -11,7 +11,7 @@ const Hero = () => {
 
         <div className="hero-content">
           <h1>Hi, I'm Ajay.</h1>
-          <h2>Full Stack Developer | Java, React, Javascript, TypeScript, Node.js, MongoDB, GraphQL, MySQL, PostgreSQL</h2>
+          <h2>Full Stack Developer | Java, React, Javascript, TypeScript, Node.js, React Native, MongoDB, GraphQL, MySQL, PostgreSQL</h2>
           <p>
             A Software Engineering graduate from LUT University, Finland.<br />
             I specialize in building dynamic, responsive web applications using modern technologies.<br />

@@ -2,7 +2,7 @@ import './Skills.css';
 
 const Skills = () => {
   const frontendSkills = [
-    "React.js", "HTML5", "CSS3", "Material UI", "Bootstrap"
+    "React.js", "React Native", "HTML5", "CSS3", "Material UI", "Bootstrap"
   ];
 
   const backendSkills = [
@@ -10,7 +10,7 @@ const Skills = () => {
   ];
 
   const toolsSkills = [
-    "Git", "GitHub", "Postman", "Netlify", "Render"
+    "Git", "GitHub", "Postman", "Netlify", "Render", "Expo"
   ];
 
   return (
