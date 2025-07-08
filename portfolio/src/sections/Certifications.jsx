@@ -16,6 +16,11 @@ const certifications = [
     provider: "University of Helsinki",
     link: "https://studies.cs.helsinki.fi/stats/api/certificate/fs-graphql/en/f69fae89bb738d1680ea33b3ce4653b6",
   },
+  {
+    title: "React Native",
+    provider: "University of Helsinki",
+    link: "https://studies.cs.helsinki.fi/stats/api/certificate/fs-react-native-2020/en/a9e1d9ec93291ff2ab480fae9fece52e",
+  },
 ];
 
 const Certifications = () => {
