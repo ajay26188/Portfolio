@@ -21,6 +21,21 @@ const certifications = [
     provider: "University of Helsinki",
     link: "https://studies.cs.helsinki.fi/stats/api/certificate/fs-react-native-2020/en/a9e1d9ec93291ff2ab480fae9fece52e",
   },
+  {
+    title: "CI/CD",
+    provider: "University of Helsinki",
+    link: "https://studies.cs.helsinki.fi/stats/api/certificate/fs-cicd/en/149d2d3be0db07083471f4de2591e9f5",
+  },
+  {
+    title: "Containers",
+    provider: "University of Helsinki",
+    link: "https://studies.cs.helsinki.fi/stats/api/certificate/fs-containers/en/8fa7c029c811be42982bf1178de203ab",
+  },
+  {
+    title: "Relational Databases",
+    provider: "University of Helsinki",
+    link: "https://studies.cs.helsinki.fi/stats/api/certificate/fs-psql/en/65bd34a282b342b728e84c4071723943",
+  },
 ];
 
 const Certifications = () => {

@@ -2,15 +2,15 @@ import './Skills.css';
 
 const Skills = () => {
   const frontendSkills = [
-    "React.js", "React Native", "HTML5", "CSS3", "Material UI", "Bootstrap"
+    "React", "Redux", "React Query", "Context API", "React Native", "HTML", "CSS", "Material UI", "Bootstrap"
   ];
 
   const backendSkills = [
-    "Java", "Node.js", "TypeScript", "Express.js", "MongoDB", "MySQL", "PostgreSQL", "REST APIs", "GraphQL"
+    "TypeScript", "Node.js", "Javascript", "MongoDB", "MySQL", "PostgreSQL", "REST APIs", "GraphQL"
   ];
 
   const toolsSkills = [
-    "Git", "GitHub", "Postman", "Netlify", "Render", "Expo"
+    "Git", "GitHub", "Postman", "Netlify", "Render", "Expo", "React Testing Library", "Vitest", "Docker", "CI/CD"
   ];
 
   return (

@@ -15,12 +15,6 @@ const Projects = () => {
       tech: "React, JavaScript, React Router, Framer Motion",
       link: "https://ajays-anecdotes.netlify.app/"
     },
-    {
-      title: "Cafe Website",
-      description: "Single-page café site with hero, menu, contact form, and photo gallery built with React and Vite.",
-      tech: "React, Vite, JavaScript, CSS, HTML",
-      link: "https://ajays-cafe.netlify.app/"
-    }
   ];
   
 
